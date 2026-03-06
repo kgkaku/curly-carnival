@@ -3,53 +3,34 @@ import json
 import time
 
 BASE = "https://aloula.faulio.com/api"
+SITE = "https://www.aloula.sa"
 
 HEADERS = {
-    "Origin": "https://www.aloula.sa",
-    "Referer": "https://www.aloula.sa/",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0",
+    "Referer": SITE,
+    "Origin": SITE
 }
+
+session = requests.Session()
+session.headers.update(HEADERS)
 
 M3U_FILE = "saudi.m3u"
 JSON_FILE = "saudi.json"
 
 
 def get_channels():
-    url = f"{BASE}/v1/channels"
-    r = requests.get(url, headers=HEADERS, timeout=20)
+    r = session.get(f"{BASE}/v1/channels", timeout=20)
     r.raise_for_status()
     return r.json()
 
 
-def get_stream(channel_id):
-
+def get_stream(cid):
     try:
-        url = f"{BASE}/v1.1/channels/{channel_id}/player"
-        r = requests.get(url, headers=HEADERS, timeout=20)
+        r = session.get(f"{BASE}/v1.1/channels/{cid}/player", timeout=20)
         data = r.json()
-
         return data.get("streams", {}).get("hls")
-
     except:
         return None
-
-
-def get_logo(ch):
-
-    base = "https://aloula.faulio.com"
-
-    for key in ["image", "thumbnail", "logo"]:
-        val = ch.get(key)
-
-        if isinstance(val, str) and val.startswith("/"):
-            return base + val
-
-        if isinstance(val, dict):
-            path = val.get("path")
-            if path:
-                return base + path
-
-    return ""
 
 
 def build_playlist():
@@ -63,16 +44,19 @@ def build_playlist():
 
         cid = ch.get("id")
         name = ch.get("title") or ch.get("name")
-        logo = get_logo(ch)
+
+        logo = ""
+        if ch.get("image"):
+            logo = "https://aloula.faulio.com" + ch["image"]
 
         stream = get_stream(cid)
 
         if stream:
 
             m3u += f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="{logo}" group-title="Saudi",{name}\n'
-            m3u += "#EXTVLCOPT:http-origin=https://www.aloula.sa\n"
-            m3u += "#EXTVLCOPT:http-referrer=https://www.aloula.sa/\n"
-            m3u += "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)\n"
+            m3u += '#EXTVLCOPT:http-referrer=https://www.aloula.sa/\n'
+            m3u += '#EXTVLCOPT:http-origin=https://www.aloula.sa\n'
+            m3u += '#EXTVLCOPT:http-user-agent=Mozilla/5.0\n'
             m3u += f"{stream}\n\n"
 
             json_data.append({
