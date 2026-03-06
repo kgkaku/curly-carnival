@@ -12,12 +12,6 @@ M3U_FILE = "saudi.m3u"
 JSON_FILE = "saudi.json"
 
 
-def clean_stream(url):
-    if not url:
-        return None
-    return url.split("?")[0]   # remove token
-
-
 def get_channels():
     url = f"{BASE}/v1/channels"
     r = requests.get(url, headers=HEADERS, timeout=20)
@@ -30,14 +24,12 @@ def get_stream(channel_id):
         url = f"{BASE}/v1.1/channels/{channel_id}/player"
         r = requests.get(url, headers=HEADERS, timeout=20)
         data = r.json()
-        stream = data.get("streams", {}).get("hls")
-        return clean_stream(stream)
+        return data.get("streams", {}).get("hls")
     except:
         return None
 
 
 def build_playlist():
-
     channels = get_channels()
 
     m3u = "#EXTM3U\n"
@@ -57,6 +49,9 @@ def build_playlist():
         if stream:
 
             m3u += f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="{logo}" group-title="Saudi",{name}\n'
+            m3u += "#EXTVLCOPT:http-origin=https://www.aloula.sa\n"
+            m3u += "#EXTVLCOPT:http-referrer=https://www.aloula.sa/\n"
+            m3u += "#EXTVLCOPT:http-user-agent=Mozilla/5.0\n"
             m3u += f"{stream}\n\n"
 
             json_data.append({
