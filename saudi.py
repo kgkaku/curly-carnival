@@ -3,9 +3,11 @@ import json
 import time
 
 BASE = "https://aloula.faulio.com/api"
+
 HEADERS = {
     "Origin": "https://www.aloula.sa",
-    "User-Agent": "Mozilla/5.0"
+    "Referer": "https://www.aloula.sa/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
 M3U_FILE = "saudi.m3u"
@@ -20,16 +22,38 @@ def get_channels():
 
 
 def get_stream(channel_id):
+
     try:
         url = f"{BASE}/v1.1/channels/{channel_id}/player"
         r = requests.get(url, headers=HEADERS, timeout=20)
         data = r.json()
+
         return data.get("streams", {}).get("hls")
+
     except:
         return None
 
 
+def get_logo(ch):
+
+    base = "https://aloula.faulio.com"
+
+    for key in ["image", "thumbnail", "logo"]:
+        val = ch.get(key)
+
+        if isinstance(val, str) and val.startswith("/"):
+            return base + val
+
+        if isinstance(val, dict):
+            path = val.get("path")
+            if path:
+                return base + path
+
+    return ""
+
+
 def build_playlist():
+
     channels = get_channels()
 
     m3u = "#EXTM3U\n"
@@ -39,10 +63,7 @@ def build_playlist():
 
         cid = ch.get("id")
         name = ch.get("title") or ch.get("name")
-
-        logo = ""
-        if ch.get("image"):
-            logo = "https://aloula.faulio.com" + ch["image"]
+        logo = get_logo(ch)
 
         stream = get_stream(cid)
 
@@ -51,7 +72,7 @@ def build_playlist():
             m3u += f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="{logo}" group-title="Saudi",{name}\n'
             m3u += "#EXTVLCOPT:http-origin=https://www.aloula.sa\n"
             m3u += "#EXTVLCOPT:http-referrer=https://www.aloula.sa/\n"
-            m3u += "#EXTVLCOPT:http-user-agent=Mozilla/5.0\n"
+            m3u += "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)\n"
             m3u += f"{stream}\n\n"
 
             json_data.append({
