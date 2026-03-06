@@ -11,6 +11,9 @@ HEADERS = {
 M3U_FILE = "saudi.m3u"
 JSON_FILE = "saudi.json"
 
+# headers required by the stream server
+STREAM_HEADERS = "Origin=https://www.aloula.sa&Referer=https://www.aloula.sa/&User-Agent=Mozilla/5.0"
+
 
 def get_channels():
     url = f"{BASE}/v1/channels"
@@ -48,8 +51,11 @@ def build_playlist():
 
         if stream:
 
+            # add required headers to stream
+            stream_with_headers = f"{stream}|{STREAM_HEADERS}"
+
             m3u += f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="{logo}" group-title="Saudi",{name}\n'
-            m3u += f"{stream}\n\n"
+            m3u += f"{stream_with_headers}\n\n"
 
             json_data.append({
                 "id": cid,
