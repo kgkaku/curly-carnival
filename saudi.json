@@ -3,96 +3,96 @@
     "id": 2,
     "name": "\u0642\u0646\u0627\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629 \u2013 \u0627\u0644\u0628\u062b \u0627\u0644\u0645\u0628\u0627\u0634\u0631",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksa1live/ksa1.smil/playlist_dvr.m3u8?hdnts=exp=1774541187~acl=/ksa1live/ksa1.smil/*~hmac=9cf00febe0f6bef1284a089c00aac3975bba9379e3570ff02002abff8cd90595"
+    "stream": "https://live.kwikmotion.com/ksa1live/ksa1.smil/playlist_dvr.m3u8?hdnts=exp=1774551416~acl=/ksa1live/ksa1.smil/*~hmac=ad39219c9b3200e3df20ed71a21fcd9e6b48d6f3534fc308953fb911a6bbe680"
   },
   {
     "id": 1,
     "name": "\u0642\u0646\u0627\u0629 SBC \u2013 \u0627\u0644\u0628\u062b \u0627\u0644\u0645\u0628\u0627\u0634\u0631",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/sbclive/sbc.smil/playlist_dvr.m3u8?hdnts=exp=1774541188~acl=/sbclive/sbc.smil/*~hmac=ecace6f397faeb0728ed0f21da8bd37b828cf9def9b7ec1d486e6c0794db74a8"
+    "stream": "https://live.kwikmotion.com/sbclive/sbc.smil/playlist_dvr.m3u8?hdnts=exp=1774551417~acl=/sbclive/sbc.smil/*~hmac=f6ba301ca61591ca11ad159fceec6d5d51a4953f32fa37f9c85563a4e25f22c0"
   },
   {
     "id": 4,
     "name": "\u0642\u0646\u0627\u0629 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u2013 \u0627\u0644\u0628\u062b \u0627\u0644\u0645\u0628\u0627\u0634\u0631",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ikhbariyalive/ikhbariya.smil/playlist_dvr.m3u8?hdnts=exp=1774541189~acl=/ikhbariyalive/ikhbariya.smil/*~hmac=2781b285e20e7c5d9d78795c3f88a76c096de26e4746b99202e33f4733a94b41"
+    "stream": "https://live.kwikmotion.com/ikhbariyalive/ikhbariya.smil/playlist_dvr.m3u8?hdnts=exp=1774551419~acl=/ikhbariyalive/ikhbariya.smil/*~hmac=1304b730c0ed6bbebc411df0c8e661b4c35f093f7515c897551cf0e5f0838abe"
   },
   {
     "id": 17,
     "name": "\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629 \u0627\u0644\u0622\u0646",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1774541190~acl=/ksasports4live/ksasports4.smil/*~hmac=c861e412ec1489ba7a822a364f070b64236bbc08f3c0d935b5ea85b2c28d7354"
+    "stream": "https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1774551420~acl=/ksasports4live/ksasports4.smil/*~hmac=59c0bdfa674f7e8abe54aa5abca430612bcb1f5e23c42c11df34b422bee1307d"
   },
   {
     "id": 3,
     "name": "\u0642\u0646\u0627\u0629 \u0630\u0643\u0631\u064a\u0627\u062a \u2013 \u0627\u0644\u0628\u062b \u0627\u0644\u0645\u0628\u0627\u0634\u0631",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/zikrayatlive/zikrayat.smil/playlist_dvr.m3u8?hdnts=exp=1774541191~acl=/zikrayatlive/zikrayat.smil/*~hmac=af66db9d7a8e30e477e6df419462fba66b314d295c24fe32040277de67b1e06f"
+    "stream": "https://live.kwikmotion.com/zikrayatlive/zikrayat.smil/playlist_dvr.m3u8?hdnts=exp=1774551420~acl=/zikrayatlive/zikrayat.smil/*~hmac=2a277aead54d6a292d390a6092bec1a879583d263d9948f5518295098f4f442a"
   },
   {
     "id": 7,
     "name": "\u0642\u0646\u0627\u0629 \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u2013 \u0627\u0644\u0628\u062b \u0627\u0644\u0645\u0628\u0627\u0634\u0631",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/playlist_dvr.m3u8?hdnts=exp=1774541193~acl=/ksaquranlive/ksaquran.smil/*~hmac=5b8f832fb7ad7cb566e118bb8c0955eb524d54796f52e6796e8f0d9da6e98e60"
+    "stream": "https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/playlist_dvr.m3u8?hdnts=exp=1774551422~acl=/ksaquranlive/ksaquran.smil/*~hmac=d511ad72a94f6594a1dce96503c426d032f86eacde9526934e20f704ce70b6fc"
   },
   {
     "id": 6,
     "name": "\u0642\u0646\u0627\u0629 \u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0646\u0628\u0648\u064a\u0629 \u2013 \u0627\u0644\u0628\u062b \u0627\u0644\u0645\u0628\u0627\u0634\u0631",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1774541194~acl=/ksasunnalive/ksasunna.smil/*~hmac=652f4edc99359b778bb454eeb094174f4aad1a1f98461d340edb075a23a7d569"
+    "stream": "https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1774551423~acl=/ksasunnalive/ksasunna.smil/*~hmac=7d203823c29c25ed7df722eca9e5d8f4bb0cdcca343c49e642b0e8cbdc7e1122"
   },
   {
     "id": 9,
     "name": "\u0642\u0646\u0627\u0629 \u0627\u0644\u0631\u064a\u0627\u0636\u064a\u0629 1",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1774541195~acl=/ksasports1live/ksasports1.smil/*~hmac=0295293ed3afcc1a57ee61fc9df9f2235a05ca8a103b07855abb37c581bf47a2"
+    "stream": "https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1774551425~acl=/ksasports1live/ksasports1.smil/*~hmac=7de41c91da0d1352d5a72ea3ee192fbb03c2991784d8262c4539234ae50a45ec"
   },
   {
     "id": 10,
     "name": "\u0642\u0646\u0627\u0629 \u0627\u0644\u0631\u064a\u0627\u0636\u064a\u0629 2",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1774541196~acl=/ksasports2live/ksasports2.smil/*~hmac=987563ce89b7de67a466cdcbeec366092caf9a20508c506236d38ecba1e40547"
+    "stream": "https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1774551426~acl=/ksasports2live/ksasports2.smil/*~hmac=b2413761c9fd7e6e02bc314b85bc793cca9a4346a710a6e8019124f8dc1411bd"
   },
   {
     "id": 16,
     "name": "\u0642\u0646\u0627\u0629 \u0627\u0644\u0631\u064a\u0627\u0636\u064a\u0629 3",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1774541197~acl=/ksasports3live/ksasports3.smil/*~hmac=c7e80af53aa135269e303583402fafb0c89ed50079d29c4f6a701e430543df8f"
+    "stream": "https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1774551427~acl=/ksasports3live/ksasports3.smil/*~hmac=2541f2e4d8a59732088e038dd2f219666ae7a55fb47be8ee6f05574346e8b00d"
   },
   {
     "id": 12,
     "name": "\u0625\u0630\u0627\u0639\u0629 \u0627\u0644\u0631\u064a\u0627\u0636",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksariyadhradiolive/ksariyadhradiovision/playlist_dvr.m3u8?hdnts=exp=1774541199~acl=/ksariyadhradiolive/ksariyadhradiovision/*~hmac=248532cda70cec1cd8caba1b5b5103b0d082753f78b71544f6e5f3a8bfbd4933"
+    "stream": "https://live.kwikmotion.com/ksariyadhradiolive/ksariyadhradiovision/playlist_dvr.m3u8?hdnts=exp=1774551428~acl=/ksariyadhradiolive/ksariyadhradiovision/*~hmac=79c0232c4d457421a967448f9e45114289340b62cbe845bece176931e30f80da"
   },
   {
     "id": 15,
     "name": "\u0625\u0630\u0627\u0639\u0629 \u062c\u062f\u0629",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksajeddahradiolive/ksajeddahradiovision/playlist_dvr.m3u8?hdnts=exp=1774541200~acl=/ksajeddahradiolive/ksajeddahradiovision/*~hmac=a0eb693478ce7b5763d062ce4fea5ccb0cd1b97441897e2b2e2ade400bc62123"
+    "stream": "https://live.kwikmotion.com/ksajeddahradiolive/ksajeddahradiovision/playlist_dvr.m3u8?hdnts=exp=1774551429~acl=/ksajeddahradiolive/ksajeddahradiovision/*~hmac=078ddd054ea17b3b40d5627e59e189ab2b23368b73ef531bc93ded40058cde44"
   },
   {
     "id": 13,
     "name": "\u0625\u0630\u0627\u0639\u0629 \u0627\u0644\u0642\u0631\u0627\u0646 \u0627\u0644\u0643\u0631\u064a\u0645",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksaquranradiolive/ksaquranradiovision/playlist_dvr.m3u8?hdnts=exp=1774541201~acl=/ksaquranradiolive/ksaquranradiovision/*~hmac=1bad3a61c42d32708f173e5380fd3770f0b4b42c00697204d738d9f0495bc1da"
+    "stream": "https://live.kwikmotion.com/ksaquranradiolive/ksaquranradiovision/playlist_dvr.m3u8?hdnts=exp=1774551431~acl=/ksaquranradiolive/ksaquranradiovision/*~hmac=877f515f319ebd32dfe47c951bcbeaa1d46282288f190fb80513768cefc151f4"
   },
   {
     "id": 14,
     "name": "\u0625\u0630\u0627\u0639\u0629 \u0646\u062f\u0627\u0621 \u0627\u0644\u0627\u0633\u0644\u0627\u0645",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksanedaradiolive/ksanedaradiovision/playlist_dvr.m3u8?hdnts=exp=1774541202~acl=/ksanedaradiolive/ksanedaradiovision/*~hmac=b416166daf032fee0a44eade5285c107cf50395db3ec1f3257ad314d11667e1a"
+    "stream": "https://live.kwikmotion.com/ksanedaradiolive/ksanedaradiovision/playlist_dvr.m3u8?hdnts=exp=1774551432~acl=/ksanedaradiolive/ksanedaradiovision/*~hmac=3faa27511f81c63e069ec357cb4ace602921ee5bfae62160e72e7510617f2ce9"
   },
   {
     "id": 18,
     "name": "\u0625\u0630\u0627\u0639\u0629 \u062e\u0632\u0627\u0645\u0649",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/khuzamaradiolive/khuzama_source/playlist.m3u8?hdnts=exp=1774541203~acl=/khuzamaradiolive/khuzama_source/*~hmac=b252357ff642aa4b2c60dee074a463ca4f5ad1cbeb20f16fcf5225cb29ad738a"
+    "stream": "https://live.kwikmotion.com/khuzamaradiolive/khuzama_source/playlist.m3u8?hdnts=exp=1774551433~acl=/khuzamaradiolive/khuzama_source/*~hmac=189eb0730f92d3e9e6fa7da84b010f28637c867f257399150750b5875bfd8ba3"
   },
   {
     "id": 11,
     "name": "\u0631\u0627\u062f\u064a\u0648 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
     "logo": "",
-    "stream": "https://live.kwikmotion.com/ksasaudiaradiolive/ksasaudiaradiovision/playlist_dvr.m3u8?hdnts=exp=1774541204~acl=/ksasaudiaradiolive/ksasaudiaradiovision/*~hmac=0e742b2d9af4b87210b68b0654c6f16400fff911122271c613a17ec275e1afb1"
+    "stream": "https://live.kwikmotion.com/ksasaudiaradiolive/ksasaudiaradiovision/playlist_dvr.m3u8?hdnts=exp=1774551434~acl=/ksasaudiaradiolive/ksasaudiaradiovision/*~hmac=6d943d6b67f3a3c2c8d7ba9d3e8aa38d009e43a07f99150382fcd5107ce4f0d0"
   }
 ]
