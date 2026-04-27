@@ -3,95 +3,95 @@
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksa1live/ksa1.smil/playlist_dvr.m3u8?hdnts=exp=1777306904~acl=/ksa1live/ksa1.smil/*~hmac=4389670e3474b22c62bd2d46b16691fc8fb1226f8a4d5265c4942eb1caabc0ea
+https://live.kwikmotion.com/ksa1live/ksa1.smil/playlist_dvr.m3u8?hdnts=exp=1777316831~acl=/ksa1live/ksa1.smil/*~hmac=d6f026a1e5347ac495ee95fceae76b63dcb9c780fa6f26d71fc01085ed16ede5
 
 #EXTINF:-1 tvg-id="1" tvg-logo="" group-title="Saudi",قناة SBC – البث المباشر
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/sbclive/sbc.smil/playlist_dvr.m3u8?hdnts=exp=1777306906~acl=/sbclive/sbc.smil/*~hmac=733921bb7dc7d65b9551cf40c616b4594d2b489c28dadf8171fc3a8b832890ab
+https://live.kwikmotion.com/sbclive/sbc.smil/playlist_dvr.m3u8?hdnts=exp=1777316832~acl=/sbclive/sbc.smil/*~hmac=3ab747d4334eb61eccde1a6e590db009b7df10e7edfafb7bd44ad50d46ed161d
 
 #EXTINF:-1 tvg-id="4" tvg-logo="" group-title="Saudi",قناة الإخبارية – البث المباشر
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ikhbariyalive/ikhbariya.smil/playlist_dvr.m3u8?hdnts=exp=1777306904~acl=/ikhbariyalive/ikhbariya.smil/*~hmac=95959299036aee20a4c18201e28331a332e4b3b7d356f4f62dcd3859afc30d20
+https://live.kwikmotion.com/ikhbariyalive/ikhbariya.smil/playlist_dvr.m3u8?hdnts=exp=1777316833~acl=/ikhbariyalive/ikhbariya.smil/*~hmac=504ca085120ad942d53a42e9730321be587f9ad4089544ca284c72cebcee399d
 
 #EXTINF:-1 tvg-id="17" tvg-logo="" group-title="Saudi",السعودية الآن
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1777306908~acl=/ksasports4live/ksasports4.smil/*~hmac=948ca09462d3d55166e77660aa525b0c5106338927212b4bfd80d6e09a06ab01
+https://live.kwikmotion.com/ksasports4live/ksasports4.smil/playlist_dvr.m3u8?hdnts=exp=1777316835~acl=/ksasports4live/ksasports4.smil/*~hmac=28c9d8b2761a1b36a65f9d319d4c42827fc7b0b6fe9d374bbe8b83f01e36efeb
 
 #EXTINF:-1 tvg-id="3" tvg-logo="" group-title="Saudi",قناة ذكريات – البث المباشر
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/zikrayatlive/zikrayat.smil/playlist_dvr.m3u8?hdnts=exp=1777306909~acl=/zikrayatlive/zikrayat.smil/*~hmac=b0775a7b215ecad0bcf0a9fe4df7732d51af4e177225cb06d0c61717b1fcf141
+https://live.kwikmotion.com/zikrayatlive/zikrayat.smil/playlist_dvr.m3u8?hdnts=exp=1777316836~acl=/zikrayatlive/zikrayat.smil/*~hmac=d0829ce393df7a1f1909c94b8fac1262d2ba2b2fff3c71dd8d7c4f9eebf177b2
 
 #EXTINF:-1 tvg-id="7" tvg-logo="" group-title="Saudi",قناة القرآن الكريم – البث المباشر
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/playlist_dvr.m3u8?hdnts=exp=1777306908~acl=/ksaquranlive/ksaquran.smil/*~hmac=9eac2015b67443c5f92e81c9044e50a4fe74b80476eacc822ca4c0295fd06dbb
+https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/playlist_dvr.m3u8?hdnts=exp=1777316837~acl=/ksaquranlive/ksaquran.smil/*~hmac=902585ab94ec60d74c1a851928605ac27e90980ba15274ab8266d7b198ba35eb
 
 #EXTINF:-1 tvg-id="6" tvg-logo="" group-title="Saudi",قناة السنة النبوية – البث المباشر
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1777306911~acl=/ksasunnalive/ksasunna.smil/*~hmac=94c94ae363a7ad9ca30df7c5250fc4193c4e0e110d1bad0d3b2783c9414a985f
+https://live.kwikmotion.com/ksasunnalive/ksasunna.smil/playlist_dvr.m3u8?hdnts=exp=1777316838~acl=/ksasunnalive/ksasunna.smil/*~hmac=5c992d3376a282ef37cabd472f124de988f444098284b34aad0cb9c6fef2906d
 
 #EXTINF:-1 tvg-id="9" tvg-logo="" group-title="Saudi",قناة الرياضية 1
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1777306913~acl=/ksasports1live/ksasports1.smil/*~hmac=5eaaf251d8382fa089702a93cb358bbf97c874cb11bc2ce2712bbe094dd2a3aa
+https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1777316840~acl=/ksasports1live/ksasports1.smil/*~hmac=99284a2725b0cbd6f29d42ba87a91cd9e30c079a6e7d471a12dea930767b1e65
 
 #EXTINF:-1 tvg-id="10" tvg-logo="" group-title="Saudi",قناة الرياضية 2
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1777306914~acl=/ksasports2live/ksasports2.smil/*~hmac=258e6da7271d6a1a082bc522eb7c9ea138fbdff226f2b68652bc1d1de7a2c8a5
+https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1777316841~acl=/ksasports2live/ksasports2.smil/*~hmac=c54cc221f0de04f2ad439c08c27ef338e816fed216eff901548c1d7827f41a7d
 
 #EXTINF:-1 tvg-id="16" tvg-logo="" group-title="Saudi",قناة الرياضية 3
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1777306915~acl=/ksasports3live/ksasports3.smil/*~hmac=a64cdb0447a56568f9e228257e6b9a148f8e2148a7745125863e43e3acbd4d8e
+https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1777316841~acl=/ksasports3live/ksasports3.smil/*~hmac=714a29ba1ef821ed4048eb861b2b1f7a13d6b6c211fc1bbfd03ec95bc54d239d
 
 #EXTINF:-1 tvg-id="12" tvg-logo="" group-title="Saudi",إذاعة الرياض
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksariyadhradiolive/ksariyadhradiovision/playlist_dvr.m3u8?hdnts=exp=1777306916~acl=/ksariyadhradiolive/ksariyadhradiovision/*~hmac=eba7fd6b0dad4a9575abb2c7f6729ac894ac4cee9e1c827c924851a318154a22
+https://live.kwikmotion.com/ksariyadhradiolive/ksariyadhradiovision/playlist_dvr.m3u8?hdnts=exp=1777316844~acl=/ksariyadhradiolive/ksariyadhradiovision/*~hmac=776cbdab8edec4467d121607576e616767a9eead3b50ecb7b225f807a4bb0c01
 
 #EXTINF:-1 tvg-id="15" tvg-logo="" group-title="Saudi",إذاعة جدة
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksajeddahradiolive/ksajeddahradiovision/playlist_dvr.m3u8?hdnts=exp=1777306918~acl=/ksajeddahradiolive/ksajeddahradiovision/*~hmac=b3e0010380c6d63b7ccf426b86ff15a29c8e1537497ca273955af47806fc14cd
+https://live.kwikmotion.com/ksajeddahradiolive/ksajeddahradiovision/playlist_dvr.m3u8?hdnts=exp=1777316845~acl=/ksajeddahradiolive/ksajeddahradiovision/*~hmac=0a834b59824cd68358d4a192f3ba6b8c25593a712d66b6a75b11f9076d8414df
 
 #EXTINF:-1 tvg-id="13" tvg-logo="" group-title="Saudi",إذاعة القران الكريم
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksaquranradiolive/ksaquranradiovision/playlist_dvr.m3u8?hdnts=exp=1777306919~acl=/ksaquranradiolive/ksaquranradiovision/*~hmac=b50d151fa4a76d8571235901d6f0ee66da5316c461e4c4d469366e360202a210
+https://live.kwikmotion.com/ksaquranradiolive/ksaquranradiovision/playlist_dvr.m3u8?hdnts=exp=1777316846~acl=/ksaquranradiolive/ksaquranradiovision/*~hmac=d5b4b53bebdf4b1ab2401bec5dc8abb1688929e6d70c5a2fd21cb7f0d582a0ec
 
 #EXTINF:-1 tvg-id="14" tvg-logo="" group-title="Saudi",إذاعة نداء الاسلام
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksanedaradiolive/ksanedaradiovision/playlist_dvr.m3u8?hdnts=exp=1777306920~acl=/ksanedaradiolive/ksanedaradiovision/*~hmac=03a5f40ff117d505e4fc34186f95c42069bafe1b48920ffdae5b4024d91543c4
+https://live.kwikmotion.com/ksanedaradiolive/ksanedaradiovision/playlist_dvr.m3u8?hdnts=exp=1777316847~acl=/ksanedaradiolive/ksanedaradiovision/*~hmac=07dee922852dba0626e79a5891a9d768ba9ebe9b3519c703785f4592ef2f811d
 
 #EXTINF:-1 tvg-id="18" tvg-logo="" group-title="Saudi",إذاعة خزامى
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/khuzamaradiolive/khuzama_source/playlist.m3u8?hdnts=exp=1777306921~acl=/khuzamaradiolive/khuzama_source/*~hmac=d3f2fcf59d378fc3d6505580e9c4544ebb0e749576f2e1e4a0d72688d8fdbe3e
+https://live.kwikmotion.com/khuzamaradiolive/khuzama_source/playlist.m3u8?hdnts=exp=1777316849~acl=/khuzamaradiolive/khuzama_source/*~hmac=1effb7585ffcb412012caf471e396867fe59d09bb4d1f337a4a5433905a3fc20
 
 #EXTINF:-1 tvg-id="11" tvg-logo="" group-title="Saudi",راديو السعودية
 #EXTVLCOPT:http-referrer=https://www.aloula.sa/
 #EXTVLCOPT:http-origin=https://www.aloula.sa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.kwikmotion.com/ksasaudiaradiolive/ksasaudiaradiovision/playlist_dvr.m3u8?hdnts=exp=1777306922~acl=/ksasaudiaradiolive/ksasaudiaradiovision/*~hmac=66486e18761d9a09c52937eacd63b9679a2047f013ca85effbe59e25124c8219
+https://live.kwikmotion.com/ksasaudiaradiolive/ksasaudiaradiovision/playlist_dvr.m3u8?hdnts=exp=1777316850~acl=/ksasaudiaradiolive/ksasaudiaradiovision/*~hmac=10f842ec2eaffa79436c7550bd2269299db9b4e4bdc22930c71eec8a43a46551
 
